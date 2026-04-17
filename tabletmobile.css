@@ -1,0 +1,341 @@
+.menubar {
+  display: none;
+}
+
+.background31 {
+  display: none;
+}
+#airpod4 {
+  display: none;
+}
+#business {
+  display: none;
+
+  align-items: center;
+}
+#carrier {
+  display: flex;
+  justify-content: flex-end;
+  display: none;
+}
+@media (max-width: 768px) {
+  .headermenu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+  }
+  .background4 {
+    /* background-size: cover;
+    display: block; */
+    /* grid-auto-rows: 0%; */
+    display: flex;
+    gap: 12px;
+    /* grid-auto-rows: 580px; */
+  }
+  .bus {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .background3 {
+    display: none;
+  }
+  .background31 {
+    display: block;
+  }
+  .box {
+    height: 490px;
+  }
+  .menubar {
+    display: block;
+  }
+  .head-textnav {
+    display: none;
+  }
+  .frame1 {
+    height: 156px;
+    gap: 0px;
+  }
+  .background1 {
+    background-image: url("tablet/background1tablet.png");
+  }
+  .logo {
+    justify-content: space-between;
+    width: 100%;
+    gap: 24px;
+    padding: 16px;
+  }
+  .frame1-text {
+    font-size: 42px;
+  }
+  .frame1-text1 {
+    font-size: 22px;
+  }
+  .frame2-text {
+    font-size: 42px;
+  }
+  .frame2-text1 {
+    font-size: 22px;
+  }
+  .background2 {
+    background-image: url("tablet/back2.png");
+  }
+  .background3 {
+    background-image: url("tablet/back3.png");
+  }
+  .back311 {
+    display: flex;
+    width: 100vw;
+  }
+  .background31 .buttons {
+    margin-top: 0;
+    font-size: 22px;
+  }
+
+  .back311 .frame5 {
+    gap: 8px;
+    padding-block: 48px 16px;
+  }
+  .back311 .subtitle {
+    font-size: 22px;
+  }
+  .airpod1 {
+    font-size: 30px;
+  }
+  .pod {
+    font-size: 18px;
+    width: 240px;
+  }
+  h2 {
+    font-size: 28px;
+  }
+  #iPad {
+    display: none;
+    /* width: 100%; */
+  }
+  #tradein {
+    width: 48%;
+  }
+
+  #airpod4 .box {
+    display: flex;
+    justify-content: flex-end;
+  }
+  #airpod4 {
+    display: flex;
+    width: 48%;
+  }
+  #airpod {
+    display: none;
+  }
+  #watch {
+    background-image: url("./tablet/watch.png");
+    width: 48%;
+  }
+  #business {
+    background-image: url("./tablet/small.png");
+    display: block;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 48%;
+  }
+  #business .container-text {
+    padding-left: 55px;
+  }
+  #carrier {
+    background-image: url("./tablet/career.png");
+    display: flex;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 48%;
+  }
+  #carrier .box {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  #card {
+    display: none;
+  }
+  .scroll {
+    height: 368px;
+  }
+  .scroll-item {
+    min-width: 689px;
+  }
+  .half {
+    height: 161px;
+  }
+  .linka {
+    height: 161px;
+    width: 286px;
+  }
+  .listen-button {
+    top: 30%;
+    left: 25%;
+  }
+}
+#business h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 257px;
+  height: 72px;
+}
+#business p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 257px;
+  height: 72px;
+}
+
+#carrier p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 390px) {
+  .background1 {
+    background-image: url("./mobile/back1.png");
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    height: 500px;
+    width: 100vw;
+  }
+  .background2 {
+    background-image: url("./mobile/back2.png");
+    height: 500px;
+    width: 100vw;
+  }
+  #airpod4 {
+    width: 100vw;
+  }
+  #watch {
+    width: 100vw;
+  }
+  #macbookair {
+    width: 100vw;
+  }
+  #carrier {
+    width: 100vw;
+  }
+  #tradein {
+    width: 100vw;
+  }
+  .frame1 {
+    gap: 0px;
+    height: 114px;
+  }
+  .frame2 {
+    gap: 0;
+    height: 114px;
+  }
+  .background1 .buttons {
+    margin-bottom: 36px;
+  }
+  .frame1-text {
+    font-size: 30px;
+  }
+  .frame1-text1 {
+    font-size: 18px;
+  }
+  .frame2-text {
+    font-size: 28px;
+  }
+  .frame2-text1 {
+    font-size: 18px;
+  }
+
+  .footer {
+    height: 134px;
+  }
+  .linka {
+    width: 238px;
+    height: 134px;
+    flex-shrink: 0;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+  }
+  .pic {
+    width: 114px;
+    height: 114px;
+    padding-top: 10px;
+  }
+  .background31 .buttons {
+    font-size: 14px;
+  }
+
+  .background31 .subtitle {
+    font-size: 18px;
+  }
+  /* #airpod4 {
+    width: 390px;
+    height: 500px;
+  } */
+  .background4 {
+    gap: 12px;
+    display: grid;
+    margin-bottom: 12px;
+    background-size: cover;
+    grid-template-columns: none;
+  }
+  .scrollframe {
+    min-width: 274px;
+    height: 495px;
+  }
+  /* .scroll-item {
+    display: none;
+  } */
+
+  #item1 {
+    background-image: url("./images1/mobilelast/Link-1.png");
+    background-size: cover;
+  }
+  #item2 {
+    background-image: url("./images1/mobilelast/Link-2.png");
+  }
+  #item3 {
+    background-image: url("./images1/mobilelast/Link-3.png");
+  }
+  #item4 {
+    background-image: url("./images1/mobilelast/Link-4.png");
+  }
+  #item5 {
+    background-image: url("./images1/mobilelast/Link-5.png");
+  }
+  #item6 {
+    background-image: url("./images1/mobilelast/Link-6.png");
+  }
+  #item7 {
+    background-image: url("./images1/mobilelast/Link-7.png");
+  }
+  #item8 {
+    background-image: url("./images1/mobilelast/Link.png");
+  }
+  #item9 {
+    display: none;
+  }
+  #item10 {
+    display: none;
+  }
+
+  #business {
+    width: 100vw;
+  }
+  .scroll {
+    height: 495px;
+    /* margin-top: 1785px; */
+  }
+  .scroll-item {
+    display: none;
+  }
+}
